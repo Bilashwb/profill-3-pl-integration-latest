@@ -42,6 +42,7 @@ export default function products() {
   const [pageInfo, setPageInfo] = useState();
 
 useEffect(() => {
+  console.log(loaderData)
     if(loaderData.status=="success"){
       setProducts(loaderData.products);
       setPageInfo(loaderData.pageInfo);
