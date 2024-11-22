@@ -1,5 +1,5 @@
 import React, { useState, useCallback ,useEffect } from "react";
-import {Page,Button,Text,Card,Layout,Tabs} from "@shopify/polaris";
+import {Page,Button,Text,Card,Layout,Tabs,Banner} from "@shopify/polaris";
 import {  useLoaderData } from "@remix-run/react";
 import { authenticate } from "../shopify.server";
 import { PlusIcon} from '@shopify/polaris-icons';
